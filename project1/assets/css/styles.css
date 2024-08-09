@@ -1,0 +1,312 @@
+:root {
+    --color-light: white;
+    --color-black: black;
+    --color-red: #dc143c;
+    --transition: .5s;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../GEOMANIST/Geomanist-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Geomanist Bold';
+    src: url('../GEOMANIST/Geomanist-Bold.ttf') format('truetype');
+}
+
+body {    
+    font-family: "Geomanist", sans-serif;             
+    font-size: 1.6rem;
+    background-color: #1d1d1d;
+    width: auto;
+    transition: background-color 0.5s ease;
+}
+
+p{
+    color: white;
+}
+
+.cabecalho {
+    height: 1rem;
+    background-color: #1d1d1d;
+    color: var(--color-light);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.cabecalho ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho a:hover {
+    transition: var(--transition);
+    background-color: var(--color-red);
+}
+.principal {
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0, .10),rgba(0,0,0, .3)),
+    url(../images/inicio/capa.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    align-items: center;    
+}
+
+.principal-content {
+    width: 60%;
+    padding: 5rem;    
+    color: var(--color-light);   
+}
+
+.principal-content h2 {
+    font-family: "Geomanist Bold", sans-serif;
+    font-weight: 400;    
+    font-size: 5rem;    
+}
+
+.principal-content p {
+    padding-bottom: 25rem;
+}
+
+.mid-index {
+    padding-top: 100px;
+    text-align: center;
+    
+}
+
+.mid-index .btn {    
+    margin: 4rem 0 2rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--color-light);
+    transition: var(--transition);    
+}
+
+.btn {
+    background-color: transparent;
+    text-align: center;
+    width: 30%;
+    margin-top: 10rem;
+    border: 2px solid var(--color-light);
+    padding: 8px 3.5rem;
+    border-radius: 5px;
+    color: var(--color-light);
+    transition: var(--transition);
+    box-shadow: 1px 1px 30px #aaa;
+}
+
+.btn:hover {
+    transition: var(--transition);
+    background-color: var(--color-red);
+}
+
+.jogos-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.jogos-item {
+    width: 30%;
+    margin: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 30px #aaa;
+    border-radius: 5px;    
+} 
+
+.jogos-item img {
+    width: 70%;
+    border-radius: 5px;
+}
+
+.jogos-item h3 {
+    margin: 2rem 0;
+    font-weight: 800;
+    color: var(--color-light);
+}
+
+.jogos-item p {
+    margin: 0 0 3rem;
+    width: 80%;
+    color: var(--color-light);
+}
+
+.caixa-form{
+    text-align: center;
+    color: var(--color-light);
+    margin: auto;
+    width: 40%;
+    padding: 8px 3.5rem;
+}
+
+.caixa-form input {
+    margin-top: 0rem;
+    width: 500px;
+    height: 40px;
+}
+
+.caixa-form textarea {
+    width: 500px;
+    height: 200px;
+}
+
+.title-form {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.caixa-form{
+    text-align: center;
+    color: var(--color-light);
+    margin: auto;
+    width: 40%;
+    padding: 8px 3.5rem;
+}
+
+.caixa-form input {
+    margin-top: 0rem;
+    width: 500px;
+    height: 40px;
+}
+
+.caixa-form textarea {
+    width: 500px;
+    height: 200px;
+}
+
+.title-form {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.tabela {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 30px auto;    
+}
+
+.tabela thead {
+    color: var(--color-light);    
+    background-color: var(--color-red);
+}
+
+.table td, tr {
+    border: 1px solid white;
+    
+}
+
+.tabela tfoot {    
+    text-align: left;
+    font-size: 1.4rem;
+    padding-left: 100px;
+}
+
+tbody tr:hover {
+    color: var(--color-light);    
+    background-color: var(--color-red);
+    cursor: pointer;
+}
+
+.titulo-para-jogos {
+    text-align: center;
+    color: white;
+}
+
+.titulo-para-jogos2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.principal2 {
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 10),rgba(0,0,0, .3)),
+    url(../images/nintendo/mari.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    align-items: center;    
+}
+
+.principal3 {
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 10),rgba(0,0,0, .3)),
+    url(../images/inicio/pexels-cottonbro-studio-4836371.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    align-items: center;    
+}
+
+.principal4 {
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 10),rgba(0,0,0, .3)),
+    url(../images/e-sports/stage-is-set-be-used-film.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    align-items: center;    
+}
+
+.principal5 {
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 10),rgba(0,0,0, .3)),
+    url(../images/pcs/pexels-lucie-liz-3165335.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    align-items: center;    
+}
+
+.principal6 {
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 10),rgba(0,0,0, .3)),
+    url(../images/atari/atari1.jpg);
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    align-items: center;    
+}
+
+.principal7 {
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0, 10),rgba(0,0,0, .3)),
+    url(../images/mmo/mmo.jpg);
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    align-items: center;    
+}
+
+.rodape {
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;	
+	clear: both;	
+    bottom:0;
+    padding-top: 20px;
+}
+
+.h3 {
+    color: rgba(230, 218, 218, 0.865);
+    text-align: center;
+}

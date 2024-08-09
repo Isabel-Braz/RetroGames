@@ -1,0 +1,88 @@
+body {
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+}
+
+.high-contrast {
+    background-color: #000;
+    color: #FFF;
+}
+
+button {
+    margin: 5px;
+}
+
+/* Estilos para o header e botões de acessibilidade */
+header.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: #f1f1f1; Ajuste conforme necessário */
+}
+
+header.cabecalho nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header.cabecalho nav ul li {
+    margin-right: 20px; /* Espaço entre os itens de navegação */
+}
+
+.accessibility-controls {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+.accessibility-controls button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.accessibility-controls button:hover {
+    background-color: #ddd;
+}
+
+.accessibility-controls button:focus {
+    outline: 2px solid #000; /* Destaque para foco no botão */
+}
+
+.accessibility-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.accessibility-controls button {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Remove borda padrão */
+    color: white; /* Cor do texto */
+    padding: 5px 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Define como elemento inline-block */
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: 'Kanit', sans-serif; /* Fonte personalizada */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 12px; /* Bordas arredondadas */
+    transition-duration: 0.4s; /* Duração da transição */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.accessibility-controls button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+}
+
+.accessibility-controls button:focus {
+    outline: 2px solid #2e7d32; /* Realça o botão ao receber foco */
+    outline-offset: 2px; /* Distância da borda */
+}
+
